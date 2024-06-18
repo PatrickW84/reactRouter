@@ -1,0 +1,114 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  box-shadow: inset 0 0 100px 10px rgb(46, 246, 43);
+}
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container > div {
+  display: flex;
+}
+#navbar {
+  padding: 0.5em;
+  justify-content: space-evenly;
+  background-color: rgba(52, 29, 29, 0.939) !important;
+  box-shadow: inset rgba(209, 20, 20, 0.82) 0 0 10px 0;
+}
+
+#navbar a {
+  color: antiquewhite; /* Default link text color */
+  font-weight: bold;
+  padding: 10px;
+}
+
+#main-section {
+  flex-grow: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  background-color: #b05f6d;
+  color: antiquewhite;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: inset 0 0 100px 0 rgb(239, 181, 181);
+}
+.blue {
+  background-color: #275db3;
+  color: antiquewhite;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: inset 0 0 100px 0 rgb(161, 161, 232);
+}
+
+.green {
+  background-color: rgb(78, 142, 78);
+  color: antiquewhite;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: inset 0 0 100px 0 rgba(191, 234, 191, 0.531);
+}
+
+.home {
+  color: antiquewhite;
+  background-image: url(https://wallpapers.com/images/featured-full/earthbound-background-480k7hbl1phvi6tp.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: inset 0 0 100px 0 rgb(2, 73, 3);
+}
+
+.lost {
+  background-image: url(https://i.pinimg.com/736x/f2/c1/be/f2c1be3019d4aebddca21b2f104ac55d.jpg);
+  color: antiquewhite;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: inset 0 0 100px 100px rgb(10, 10, 10);
+}
+
+#footer {
+  padding: 1em;
+  justify-content: space-evenly;
+  background-color: rgba(1, 0, 60, 0.789) !important;
+  box-shadow: inset rgba(50, 173, 182, 0.921) 0 0 10px 0;
+}
+
+.game {
+  background-image: url(https://i.redd.it/nckkcu1630ia1.png);
+  color: antiquewhite;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  box-shadow: inset 0 0 100px 10px rgba(244, 15, 202, 0.889);
+}
